@@ -14,6 +14,7 @@ class NavBar extends Component {
           <Link to="/customization">Customization</Link>
           <Link to="/about-us">About Us</Link>
         </div>
+        {this.props.children}
       </div>
     );
   }
