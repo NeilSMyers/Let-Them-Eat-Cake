@@ -1,0 +1,16 @@
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 30px;
+  width: 100vw;
+  height: 100vh;
+  background-color: $mint;
+  
+}
+.pics {
+  padding: 5px;
+  border: 2px solid $mint;
+  background-color: $mint;
+
+}

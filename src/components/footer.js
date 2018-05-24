@@ -9,6 +9,7 @@ class Footer extends Component {
         <a href><i class="fab fa-twitter"></i></a>
         <a href><i class="fab fa-instagram"></i></a>
         <a href><i class="fab fa-youtube"></i></a>
+        <span className="contact">Contact Us: (801)-465-8522</span>
       </div>
     );
   }

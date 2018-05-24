@@ -7,7 +7,7 @@ div {
     display: flex;
     justify-content: center;
     padding: 25px;
-    font-size: 3em;
+    font-size: 50px;
   }
 
   .links {
@@ -17,9 +17,12 @@ div {
     border: 2px solid $mint;
     font-size: 1.5em;
 
-    .link:hover {
+    .link{
+      color: $charcoal;
+      &:hover {
       cursor: pointer;
-      color: $lavender;
+      color: $pink;
+      }
     }
   }
 }

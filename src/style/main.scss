@@ -4,9 +4,12 @@ $lavender: #dacfdd;
 $pink: #e1a2ab;
 $charcoal: #697586;
 $title-font: 'Engagement', cursive;
+$content-font: 'Mallanna', sans-serif;
 
 @import './navBar';
 @import './footer';
+@import './aboutUs';
+@import './home';
 
 body {
   background-color: $mint;

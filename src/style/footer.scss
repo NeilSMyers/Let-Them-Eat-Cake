@@ -10,6 +10,14 @@
 
   a {
     padding: 5px;
-    
+
+    &:hover {
+      color: $pink;
+      cursor: pointer;
+    }
+  }
+  .contact {
+    float: right;
+    padding: 0;
   }
 }
