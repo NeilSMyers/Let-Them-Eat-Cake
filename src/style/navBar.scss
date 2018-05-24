@@ -1,0 +1,14 @@
+div {
+  color: $charcoal;
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+  }
+}
