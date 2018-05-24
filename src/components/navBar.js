@@ -8,10 +8,10 @@ class NavBar extends Component {
           <h1>Let Them Eat Cake</h1>
         </div>
         <div className="links">
-          <a>Home</a>
-          <a>Gallery</a>
-          <a>Customization</a>
-          <a>About Us</a>
+          <a className="link">Home</a>
+          <a className="link">Gallery</a>
+          <a className="link">Customization</a>
+          <a className="link">About Us</a>
         </div>
       </div>
     );

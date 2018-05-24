@@ -3,5 +3,11 @@ $mint: #b3d6d3;
 $lavender: #dacfdd;
 $pink: #e1a2ab;
 $charcoal: #697586;
+$title-font: 'Engagement', cursive;
 
 @import './navBar';
+@import './footer';
+
+body {
+  background-color: $mint;
+}

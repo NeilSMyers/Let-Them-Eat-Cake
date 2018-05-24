@@ -1,14 +1,25 @@
 div {
+  background-color: $cream;
   color: $charcoal;
+  font-family: $title-font;
+
   .logo {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding: 25px;
+    font-size: 3em;
   }
 
   .links {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding: 12px;
+    border: 2px solid $mint;
+    font-size: 1.5em;
+
+    .link:hover {
+      cursor: pointer;
+      color: $lavender;
+    }
   }
 }
